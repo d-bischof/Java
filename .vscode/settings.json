@@ -1,0 +1,18 @@
+{
+    "java.project.sourcePaths": [
+        "character",
+        "five",
+        "four",
+        "loop-lab",
+        "method-lab",
+        "one",
+        "pet-challange",
+        "pet-challange-two",
+        "six",
+        "three",
+        "two",
+        "vending"
+    ],
+    "java.project.referencedLibraries": [],
+    "java.jdt.ls.java.home": "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.2.10-hotspot"
+}
