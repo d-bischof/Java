@@ -7,13 +7,19 @@
  * Date:
  */
 import java.util.Scanner;
+import java.util.Random;
 
 public class ArrayBounds {
 
     public static void main(String[] args) {
         var input = new Scanner(System.in);
+        var random = new Random();
 
-        int data[] = {1, 2, 3, 4, 5};
+        int data[] = new int[100];
+
+        for (int i = 0; i < 100; i++) {
+            data[i] = random.nextInt();
+        }
 
         for(;;) {
             System.out.printf("please enter an integer (-1 or non-integer to quit): ");
